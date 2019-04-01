@@ -1,0 +1,49 @@
+I 1
+V 5
+X 10
+L 50
+C 100
+D 500
+M 1000
+
+Tasking:
+Roman Numerals
+1. given I should return 1
+2. given V should return 5
+3. given X should return 10
+4. given L should return 50
+5. given C should return 100
+6. given D should return 500
+7. given M should return 1000
+8. given II should return 2
+9. given III should return 3
+10. given IIII should return error
+11. given VI should return 6
+12. given IV should return 4
+13. given MMM should return 3000
+14. given MMMI should return error
+15. given XX should return 20
+16. given VV should return error
+17. given XLIX should return 49
+18. given IL should return error
+19. given A should return error
+20. given I1 should return error
+
+Arabic Numerals
+1. given 1 should return I
+2. given 5 should return V
+3. given 10 should return X
+4. given 50 should return L
+5. given 100 should return C
+6. given 500 should return D
+7. given 1000 should return M
+8. given 2 should return II
+9. given 3 should return III
+10. given 6 should return VI
+11. given 4 should return IV
+12. given 3000 should return MMM
+13. given 3001 should return error
+14. given 20 should return XX
+15. given 49 should return XLIX
+16. given 0 should return error
+17. given -1 should return error
