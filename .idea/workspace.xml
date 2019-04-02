@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cecc242-2b26-4d7e-bda8-5016968730d2" name="Default" comment="" />
+    <list default="true" id="9cecc242-2b26-4d7e-bda8-5016968730d2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/RomanEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/converter/Converter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/converter/Converter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/converter/ConverterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/converter/ConverterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/converter/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/converter/Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/converter/ConverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/converter/ConverterTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -19,6 +27,11 @@
       </map>
     </option>
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/romannumerals$ConverterTest_shouldReturnErrorGivenIIII.ic" NAME="ConverterTest.shouldReturnErrorGivenIIII Coverage Results" MODIFIED="1554095065877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>converter.*</FILTER>
+    </SUITE>
+  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -29,8 +42,8 @@
       <file leaf-file-name="tasking.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tasking.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+            <state relative-caret-position="218">
+              <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -38,8 +51,11 @@
       <file leaf-file-name="Converter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/converter/Converter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            <state relative-caret-position="410">
+              <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,13 +63,20 @@
       <file leaf-file-name="ConverterTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/converter/ConverterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            <state relative-caret-position="433">
+              <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RomanEnum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/enums/RomanEnum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -67,6 +90,9 @@
         <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -368,6 +394,8 @@
         <option value="$PROJECT_DIR$/src/test/java/tasking.txt" />
         <option value="$PROJECT_DIR$/src/test/java/calculator/CalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/converter/CalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/enum/RomanEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/enums/RomanEnum.java" />
         <option value="$PROJECT_DIR$/src/test/java/converter/ConverterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/converter/Converter.java" />
       </list>
@@ -388,6 +416,7 @@
     <option name="width" value="1678" />
     <option name="height" value="1008" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -426,6 +455,14 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="converter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="romannumerals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="romannumerals" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enums" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="romannumerals" type="b2602c69:ProjectViewProjectNode" />
@@ -485,7 +522,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConverterTest.name">
+  <component name="RunManager" selected="JUnit.ConverterTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -512,7 +549,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ConverterTest.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConverterTest.shouldReturn1GivenI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="romannumerals_test" />
       <extension name="coverage">
         <pattern>
@@ -524,7 +561,76 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="converter" />
       <option name="MAIN_CLASS_NAME" value="converter.ConverterTest" />
-      <option name="METHOD_NAME" value="name" />
+      <option name="METHOD_NAME" value="shouldReturn1GivenI" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ConverterTest.shouldReturn49GivenXLIX" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="romannumerals_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="converter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="converter" />
+      <option name="MAIN_CLASS_NAME" value="converter.ConverterTest" />
+      <option name="METHOD_NAME" value="shouldReturn49GivenXLIX" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ConverterTest.shouldReturnErrorGivenIL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="romannumerals_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="converter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="converter" />
+      <option name="MAIN_CLASS_NAME" value="converter.ConverterTest" />
+      <option name="METHOD_NAME" value="shouldReturnErrorGivenIL" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ConverterTest.shouldReturnIGiven1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="romannumerals_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="converter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="converter" />
+      <option name="MAIN_CLASS_NAME" value="converter.ConverterTest" />
+      <option name="METHOD_NAME" value="shouldReturnIGiven1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -575,12 +681,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.ConverterTest" />
-      <item itemvalue="JUnit.ConverterTest.name" />
+      <item itemvalue="JUnit.ConverterTest.shouldReturn1GivenI" />
+      <item itemvalue="JUnit.ConverterTest.shouldReturn49GivenXLIX" />
+      <item itemvalue="JUnit.ConverterTest.shouldReturnErrorGivenIL" />
+      <item itemvalue="JUnit.ConverterTest.shouldReturnIGiven1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ConverterTest.name" />
         <item itemvalue="JUnit.ConverterTest" />
+        <item itemvalue="JUnit.ConverterTest.shouldReturnIGiven1" />
+        <item itemvalue="JUnit.ConverterTest.shouldReturnErrorGivenIL" />
+        <item itemvalue="JUnit.ConverterTest.shouldReturn1GivenI" />
+        <item itemvalue="JUnit.ConverterTest.shouldReturn49GivenXLIX" />
       </list>
     </recent_temporary>
   </component>
@@ -596,23 +708,44 @@
       <updated>1553668459192</updated>
       <workItem from="1553668475789" duration="1450000" />
       <workItem from="1554079047535" duration="282000" />
-      <workItem from="1554079350213" duration="623000" />
+      <workItem from="1554079350213" duration="18846000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ConverterTest - 2019.04.01 at 08h 52m 06s.xml">
+    <history-entry file="ConverterTest - 2019.04.02 at 10h 02m 17s.xml">
       <configuration name="ConverterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConverterTest_name - 2019.04.01 at 08h 52m 31s.xml">
-      <configuration name="ConverterTest.name" configurationId="JUnit" />
+    <history-entry file="ConverterTest - 2019.04.02 at 10h 08m 08s.xml">
+      <configuration name="ConverterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConverterTest_name - 2019.04.01 at 08h 52m 37s.xml">
-      <configuration name="ConverterTest.name" configurationId="JUnit" />
+    <history-entry file="ConverterTest - 2019.04.02 at 10h 08m 19s.xml">
+      <configuration name="ConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConverterTest - 2019.04.02 at 10h 11m 19s.xml">
+      <configuration name="ConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConverterTest - 2019.04.02 at 10h 36m 40s.xml">
+      <configuration name="ConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConverterTest - 2019.04.02 at 10h 42m 25s.xml">
+      <configuration name="ConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConverterTest - 2019.04.02 at 10h 44m 37s.xml">
+      <configuration name="ConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConverterTest - 2019.04.02 at 10h 48m 49s.xml">
+      <configuration name="ConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConverterTest - 2019.04.02 at 10h 49m 05s.xml">
+      <configuration name="ConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConverterTest - 2019.04.02 at 10h 50m 05s.xml">
+      <configuration name="ConverterTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2355000" />
+    <option name="totallyTimeSpent" value="20578000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -634,8 +767,9 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
+      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.32995737" />
       <window_info anchor="bottom" id="CheckStyle" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
@@ -654,12 +788,54 @@
       <window_info anchor="bottom" id="JRebel Console" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Build" order="8" visible="true" weight="0.32937366" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.32972974" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="JRebel" order="5" side_tool="true" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="CheckStyle" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="bottom" id="SonarLint" order="12" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="bottom" id="JRebel Executor" order="15" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="10" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/tasking.txt">
@@ -673,6 +849,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -682,8 +861,6 @@
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -695,29 +872,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/text/ParseException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/com/sun/org/apache/xerces/internal/impl/xpath/regex/ParseException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tasking.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        <state relative-caret-position="218">
+          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/enums/RomanEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/converter/ConverterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="433">
+          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/converter/Converter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        <state relative-caret-position="410">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
