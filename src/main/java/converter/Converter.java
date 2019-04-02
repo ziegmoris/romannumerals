@@ -1,6 +1,7 @@
 package converter;
 
 
+import enums.ArabicEnum;
 import enums.RomanEnum;
 
 import java.text.ParseException;
@@ -12,7 +13,7 @@ class Converter {
     }
 
     static String convert(String num) throws ParseException {
-        String convertedValue = "";
+        String convertedValue;
 
         if (Pattern.matches("[IVXLCDM]+", num)) {
             if (num.startsWith("MMM") && num.length() > 3) {
@@ -21,21 +22,10 @@ class Converter {
             convertedValue = String.valueOf(getConvertedRomanNumeral(num));
         } else if (Pattern.matches("[0-9]+", num)) {
             Integer integer = Integer.valueOf(num);
-            int thousands = integer / 1000;
-            thousands = thousands * 1000;
-            integer = integer - thousands;
-
-            int hundreds = integer / 100;
-            hundreds = hundreds * 100;
-            integer = integer - hundreds;
-
-            int tens = integer / 10;
-            tens = tens * 10;
-            integer = integer - tens;
-
-            int ones = integer;
-
-            convertedValue = getTensValue(tens) + getOnesValue(ones);
+            if (integer > 3000 || integer < 1) {
+                throw new ParseException("Maximum of 3000 and minimum of 1", -1);
+            }
+            convertedValue = getConvertedArabicValue(integer);
         } else {
             throw new ParseException("Invalid input", -1);
         }
@@ -43,46 +33,50 @@ class Converter {
         return convertedValue;
     }
 
-    private static String getTensValue(int tens) throws ParseException {
-        StringBuilder tensString = new StringBuilder();
-        if (tens > 0) {
-            while (tensString.toString().isEmpty()
-                    || getConvertedRomanNumeral(tensString.toString()) < tens) {
-                if (tensString.toString().contains("XXX")) {
-                    if (tensString.toString().contains("L")) {
-                        tensString = new StringBuilder("XC");
-                    } else {
-                        tensString = new StringBuilder("XL");
-                    }
-                } else if(tensString.toString().contains("XL")) {
-                    tensString = new StringBuilder("L");
-                } else {
-                    tensString.append("X");
-                }
-            }
-        }
-        return tensString.toString();
+    private static String getConvertedArabicValue(Integer integer) throws ParseException {
+        String convertedValue;
+        int thousands = integer / 1000;
+        thousands = thousands * 1000;
+        integer = integer - thousands;
+
+        int hundreds = integer / 100;
+        hundreds = hundreds * 100;
+        integer = integer - hundreds;
+
+        int tens = integer / 10;
+        tens = tens * 10;
+        integer = integer - tens;
+
+        int ones = integer;
+
+        convertedValue = getDecimalValue(thousands, ArabicEnum.valueOf("THOUSANDS"))
+                + getDecimalValue(hundreds, ArabicEnum.valueOf("HUNDREDS"))
+                + getDecimalValue(tens, ArabicEnum.valueOf("TENS"))
+                + getDecimalValue(ones, ArabicEnum.valueOf("ONES"));
+        return convertedValue;
     }
 
-    private static String getOnesValue(int ones) throws ParseException {
-        StringBuilder onesString = new StringBuilder();
-        if (ones > 0) {
-            while (onesString.toString().isEmpty()
-                    || getConvertedRomanNumeral(onesString.toString()) < ones) {
-                if (onesString.toString().contains("III")) {
-                    if (onesString.toString().contains("V")) {
-                        onesString = new StringBuilder("IX");
+    private static String getDecimalValue(int arabicVal, ArabicEnum arabicEnum) throws ParseException {
+        StringBuilder val = new StringBuilder();
+        if (arabicVal > 0) {
+            while (val.toString().isEmpty()
+                    || getConvertedRomanNumeral(val.toString()) < arabicVal) {
+                if (val.toString().contains(arabicEnum.getMinVal()
+                        + arabicEnum.getMinVal()
+                        + arabicEnum.getMinVal())) {
+                    if (val.toString().contains(arabicEnum.getMidVal())) {
+                        val = new StringBuilder(arabicEnum.getMaxVal());
                     } else {
-                        onesString = new StringBuilder("IV");
+                        val = new StringBuilder(arabicEnum.getMinVal() + arabicEnum.getMidVal());
                     }
-                } else if(onesString.toString().contains("IV")) {
-                    onesString = new StringBuilder("V");
+                } else if (val.toString().contains(arabicEnum.getMinVal() + arabicEnum.getMidVal())) {
+                    val = new StringBuilder(arabicEnum.getMidVal());
                 } else {
-                    onesString.append("I");
+                    val.append(arabicEnum.getMinVal());
                 }
             }
         }
-        return onesString.toString();
+        return val.toString();
     }
 
     private static int getConvertedRomanNumeral(String num) throws ParseException {

@@ -1,10 +1,14 @@
 package converter;
 
+import enums.ArabicEnum;
+import enums.RomanEnum;
 import org.junit.Test;
 
 import java.text.ParseException;
+import java.util.Arrays;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
 
 public class ConverterTest {
 
@@ -135,5 +139,55 @@ public class ConverterTest {
     @Test
     public void shouldReturnLGiven50() throws ParseException {
         assertEquals("L", Converter.convert("50"));
+    }
+
+    @Test
+    public void shouldReturnCGiven100() throws ParseException {
+        assertEquals("C", Converter.convert("100"));
+    }
+
+    @Test
+    public void shouldReturnDGiven500() throws ParseException {
+        assertEquals("D", Converter.convert("500"));
+    }
+
+    @Test
+    public void shouldReturnMGiven1000() throws ParseException {
+        assertEquals("M", Converter.convert("1000"));
+    }
+
+    @Test(expected = ParseException.class)
+    public void shouldReturnErrorGiven3001() throws ParseException {
+        Converter.convert("3001");
+    }
+
+    @Test
+    public void shouldReturnXXGiven20() throws ParseException {
+        assertEquals("XX", Converter.convert("20"));
+    }
+
+    @Test
+    public void shouldReturnXLIXGiven49() throws ParseException {
+        assertEquals("XLIX", Converter.convert("49"));
+    }
+
+    @Test(expected = ParseException.class)
+    public void shouldReturnErrorGiven0() throws ParseException {
+        Converter.convert("0");
+    }
+
+    @Test(expected = ParseException.class)
+    public void shouldReturnErrorGivenNegative1() throws ParseException {
+        Converter.convert("-1");
+    }
+
+    @Test
+    public void shouldPrintOutEnums() {
+        try {
+            Arrays.asList(ArabicEnum.values()).forEach(System.out::println);
+            Arrays.asList(RomanEnum.values()).forEach(System.out::println);
+        } catch (Exception e) {
+            fail();
+        }
     }
 }
