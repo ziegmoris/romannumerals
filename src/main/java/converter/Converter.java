@@ -85,20 +85,22 @@ class Converter {
         int numCount = 1;
         for (String n : num.split("")) {
             RomanEnum romanEnum = RomanEnum.valueOf(n);
-            Integer integer = Integer.valueOf(romanEnum.getArabic());
+            Integer integer = romanEnum.getArabic();
             if (!previousNum.equals(n)) {
                 numCount = 1;
                 if (previousNum.equals(romanEnum.getPrev())) {
-                    totalVal += integer - (Integer.valueOf(RomanEnum.valueOf(previousNum).getArabic()) * 2);
+                    totalVal += integer - (RomanEnum.valueOf(previousNum).getArabic() * 2);
                 } else if (!"N/A".equals(previousNum) && !num.equals(previousNum)
-                        && Integer.valueOf(RomanEnum.valueOf(previousNum).getArabic()) < integer) {
+                        && RomanEnum.valueOf(previousNum).getArabic() < integer) {
                     throw new ParseException("Invalid roman numeral", -1);
                 } else {
                     totalVal += integer;
                 }
             } else {
                 numCount++;
-                if (numCount == 4) {
+                if (numCount > 1 && String.valueOf(integer).contains("5")){
+                    throw new ParseException("Non-repeatable roman numeral", -1);
+                } else if (numCount == 4) {
                     throw new ParseException("Cannot have more than 3 repeating roman numerals next to each other", -1);
                 }
                 totalVal += integer;

@@ -89,9 +89,9 @@ public class ConverterTest {
         assertEquals("20", Converter.convert("XX"));
     }
 
-    @Test
-    public void shouldReturn10GivenVV() throws ParseException {
-        assertEquals("10", Converter.convert("VV"));
+    @Test(expected = ParseException.class)
+    public void shouldReturnErrorGivenVV() throws ParseException {
+        Converter.convert("VV");
     }
 
     @Test

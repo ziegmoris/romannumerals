@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cecc242-2b26-4d7e-bda8-5016968730d2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/ArabicEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/0/50be9fa94893dba57b920d5682269a389a3c07e1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/0/50be9fa94893dba57b920d5682269a389a3c07e1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/converter/Converter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/converter/Converter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/converter/ConverterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/converter/ConverterTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/converter/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/converter/Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enums/RomanEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enums/RomanEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/converter/ConverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/converter/ConverterTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,6 +27,9 @@
     </option>
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/romannumerals$ConverterTest.ic" NAME="ConverterTest Coverage Results" MODIFIED="1554196795044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>converter.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/romannumerals$ConverterTest_shouldReturnErrorGivenIIII.ic" NAME="ConverterTest.shouldReturnErrorGivenIIII Coverage Results" MODIFIED="1554095065877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>converter.*</FILTER>
     </SUITE>
@@ -44,17 +44,17 @@
       <file leaf-file-name="tasking.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tasking.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
+            <state relative-caret-position="371">
               <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Converter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Converter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/converter/Converter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="155">
+              <caret line="91" column="72" selection-start-line="91" selection-start-column="61" selection-end-line="91" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,17 +65,17 @@
       <file leaf-file-name="ArabicEnum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/enums/ArabicEnum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="102">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConverterTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConverterTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/converter/ConverterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="182" lean-forward="true" selection-start-line="182" selection-end-line="182" />
+            <state relative-caret-position="189">
+              <caret line="90" selection-start-line="90" selection-end-line="90" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/enums/RomanEnum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -97,9 +97,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -407,9 +408,11 @@
         <option value="$PROJECT_DIR$/src/test/java/calculator/CalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/converter/CalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/enum/RomanEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/converter/NumericConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/converter/ArabicConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/enums/ArabicEnum.java" />
         <option value="$PROJECT_DIR$/src/main/java/enums/RomanEnum.java" />
         <option value="$PROJECT_DIR$/src/main/java/converter/Converter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/enums/ArabicEnum.java" />
         <option value="$PROJECT_DIR$/src/test/java/converter/ConverterTest.java" />
       </list>
     </option>
@@ -521,6 +524,9 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="converter" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -722,23 +728,11 @@
       <workItem from="1553668475789" duration="1450000" />
       <workItem from="1554079047535" duration="282000" />
       <workItem from="1554079350213" duration="20766000" />
-      <workItem from="1554183185793" duration="616000" />
+      <workItem from="1554183185793" duration="4593000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ConverterTest - 2019.04.02 at 13h 14m 58s.xml">
-      <configuration name="ConverterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConverterTest - 2019.04.02 at 13h 15m 46s.xml">
-      <configuration name="ConverterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConverterTest - 2019.04.02 at 13h 16m 33s.xml">
-      <configuration name="ConverterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConverterTest - 2019.04.02 at 13h 17m 09s.xml">
-      <configuration name="ConverterTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ConverterTest - 2019.04.02 at 13h 33m 16s.xml">
       <configuration name="ConverterTest" configurationId="JUnit" />
     </history-entry>
@@ -757,9 +751,21 @@
     <history-entry file="ConverterTest - 2019.04.02 at 13h 42m 43s.xml">
       <configuration name="ConverterTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ConverterTest - 2019.04.02 at 17h 19m 56s.xml">
+      <configuration name="ConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConverterTest - 2019.04.02 at 17h 22m 06s.xml">
+      <configuration name="ConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConverterTest - 2019.04.02 at 17h 27m 39s.xml">
+      <configuration name="ConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConverterTest - 2019.04.02 at 17h 28m 16s.xml">
+      <configuration name="ConverterTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23114000" />
+    <option name="totallyTimeSpent" value="27091000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -783,6 +789,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.32995737" />
       <window_info anchor="bottom" id="CheckStyle" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
@@ -800,7 +807,6 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="JRebel Console" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.32995737" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Build" order="8" visible="true" weight="0.32937366" />
@@ -941,41 +947,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tasking.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/converter/NumericConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="26" />
+        <state relative-caret-position="85">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/enums/RomanEnum.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/converter/ArabicConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/enums/ArabicEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/converter/Converter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="153">
+          <caret line="36" column="47" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/enums/RomanEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tasking.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/converter/ConverterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="182" lean-forward="true" selection-start-line="182" selection-end-line="182" />
+        <state relative-caret-position="189">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/enums/ArabicEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/converter/Converter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="91" column="72" selection-start-line="91" selection-start-column="61" selection-end-line="91" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
